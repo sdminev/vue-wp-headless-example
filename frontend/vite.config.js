@@ -9,7 +9,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/wp-json': {
-        target: 'http://wordpress:80', // ← use service name, NOT localhost
+        target: 'http://wordpress:80', // ← use service name, NOT localhost (за да сочи към правилния контейнер)
         changeOrigin: true,
         secure: false
       }
