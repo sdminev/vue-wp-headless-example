@@ -113,6 +113,24 @@ You can safely delete:
 
 ---
 
+---
+
+### 🚀 Potential Improvements
+
+While the current implementation fulfills all assignment requirements, here are some ideas for future enhancements:
+
+- **Real JWT Support:** Replace the token-based simulation with actual signed JWTs for better security and standardization.
+- **User Registration Flow:** Add UI and API support for registering new users directly from the Vue frontend.
+- **Token Expiry Handling:** Automatically log out users when their token expires and redirect them to the login screen.
+- **Role-Based Routing:** Guard frontend routes more strictly based on user roles, hiding or disabling entire views if unauthorized.
+- **Post Creation/Edit:** Extend the UI to allow creating or editing posts for editor/admin roles.
+- **WP-CLI Integration:** Bundle WP-CLI in the Docker image and automate WordPress installation and configuration fully.
+- **Testing & CI/CD:** Add tests for backend endpoints and Vue components, and set up a basic GitHub Actions pipeline for automated testing.
+
+---
+
+---
+
 ## 🧑‍💻 Author
 
 Built by **Stefan Minev** as a technical assignment.
