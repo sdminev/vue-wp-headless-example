@@ -124,6 +124,8 @@ While the current implementation fulfills all assignment requirements, there are
 - **Token Expiry Handling:** Automatically log out users when their token expires and redirect them to the login screen.
 - **Role-Based Routing:** Guard frontend routes more strictly based on user roles, hiding or disabling entire views if unauthorized.
 - **Post Creation/Edit:** Extend the UI to allow creating or editing posts for editor/admin roles.
+- **Improved Navigation:** Add a global navigation bar with links to the main sections (e.g. Posts, Login, Logout), and breadcrumb support for better UX. Or actual UX for that matter, as it is currently as basic as almost non-existent 😂
+- **Related Content & Filters:** Show related articles on single post pages, and allow filtering posts by category, date, or author.
 - **WP-CLI Integration:** Bundle WP-CLI in the Docker image and automate WordPress installation and configuration fully.
 - **Testing & CI/CD:** Add tests for backend endpoints and Vue components, and set up a basic GitHub Actions pipeline for automated testing.
 
