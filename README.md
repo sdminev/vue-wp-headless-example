@@ -109,7 +109,7 @@ Naive UI was chosen to keep the interface clean and consistent with minimal effo
 
 You can safely delete:
 
-- ~~ `hello.php` and `akismet` from `/backend` (plugins installed by default on WP install) ~~
+- ~~`hello.php` and `akismet` from `/backend` (plugins installed by default on WP install)~~
 
 ---
 
