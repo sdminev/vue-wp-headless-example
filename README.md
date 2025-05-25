@@ -117,7 +117,7 @@ You can safely delete:
 
 ### 🚀 Potential Improvements
 
-While the current implementation fulfills all assignment requirements, here are some ideas for future enhancements:
+While the current implementation fulfills all assignment requirements, there are a lot of potential improvement were this a real project, for example:
 
 - **Real JWT Support:** Replace the token-based simulation with actual signed JWTs for better security and standardization.
 - **User Registration Flow:** Add UI and API support for registering new users directly from the Vue frontend.
