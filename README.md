@@ -1,6 +1,6 @@
-# Hantec Vue + WordPress Headless Assignment
+# Vue + WordPress Headless Assignment
 
-This is a full-stack demo project featuring a **Vue 3 + Vite** frontend communicating with a **headless WordPress** backend through a custom REST API.
+This is a demo project featuring a **Vue 3 + Vite** frontend communicating with a **headless WordPress** backend through a custom REST API.
 
 The WordPress backend is used to authenticate users and provide access to blog posts, while the Vue frontend displays the content and provides a login-protected UI.
 
@@ -110,7 +110,6 @@ Naive UI was chosen to keep the interface clean and consistent with minimal effo
 You can safely delete:
 
 - `hello.php` and `akismet` from `/backend`
-- Any default WP themes you don't use
 
 ---
 
